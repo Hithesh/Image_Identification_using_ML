@@ -14,47 +14,34 @@ This repository contains a Jupyter Notebook for training and evaluating a machin
 - Visualization of results  
 - Built using popular Python libraries  
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name'''bash
+cd your-repo-name
+```
 ###2. Set up the environment
-'''bash
 Create a virtual environment (optional but recommended), then install the required libraries.
-
-Using requirements.txt:
-
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 If requirements.txt is not available, manually install:
-
-bash
-Copy
-Edit
+```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
+```
 3. Run the notebook
-bash
-Copy
-Edit
+```bash
 jupyter notebook Model.ipynb
-🧠 Libraries Used
+```
+## Libraries Used
 numpy
-
 pandas
-
 matplotlib
-
 seaborn
-
 scikit-learn
 
-(and possibly others depending on the notebook)
-
-📊 Output
+## Output
 The notebook includes training results, evaluation metrics, and visualizations to understand model performance.
